@@ -11,5 +11,5 @@ LaTex Template for International Conference on Intelligent Autonomous Systems(IA
 ```bash
 git clone https://github.com/knorth55/ias-template.git
 cd ias-template
-latexmk -pvc ias
+latexmk -pvc main
 ```
