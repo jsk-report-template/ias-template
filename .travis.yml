@@ -1,0 +1,23 @@
+language: generic
+compiler: gcc
+cache: ccache
+
+addons:
+  apt:
+    update: true
+
+matrix:
+  include:
+    - os: linux
+
+install:
+  - sudo apt install -y -qq texlive-full latexmk
+
+script:
+  - pdflatex main
+  - bibtex main
+  - pdflatex main
+  - pdflatex main
+
+notifications:
+  email: false
