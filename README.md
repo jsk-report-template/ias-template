@@ -9,7 +9,7 @@ LaTex Template for International Conference on Intelligent Autonomous Systems(IA
 ## How to make PDF
 
 ```bash
-git clone https://github.com/knorth55/ias-template.git
+git clone https://github.com/jsk-report-template/ias-template.git
 cd ias-template
 latexmk -pvc main
 ```
